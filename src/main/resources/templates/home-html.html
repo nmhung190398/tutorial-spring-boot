@@ -1,0 +1,7 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<ul>
+
+    <!--        <th:block th:text="${product.name}"></th:block>-->
+    <li th:each="product : ${products}" th:text="${product.name}"></li>
+
+</ul>
